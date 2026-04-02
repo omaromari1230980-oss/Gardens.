@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>المدونة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>🌿 Gardens</h1>
+</nav>
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+document.getElementById("topBtn").style.display =
+window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+<section>
+<h2>المدونة</h2>
+<div class="card">أفضل طرق العناية بالنباتات</div>
+<div class="card">كيف تبدأ الزراعة</div>
+</section>
+
+<footer>© Gardens</footer>
+
+</body>
+</html>

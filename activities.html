@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الأنشطة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>🌿 Gardens</h1>
+<ul>
+<li><a href="index.html">الرئيسية</a></li>
+<li><a href="activities.html">الأنشطة</a></li>
+<li><a href="boxes.html">الصناديق</a></li>
+</ul>
+</nav>
+
+<section>
+
+<h2>الأنشطة</h2>
+
+<p>
+نوفر مجموعة متكاملة من الأنشطة التي تساعد المستخدمين على تطوير مهاراتهم في مجال البستنة،
+وتشمل هذه الأنشطة التعلم العملي، الإرشادات، والتفاعل مع المجتمع.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌿 حدائق مفتوحة</h3>
+<p>استكشاف الطبيعة والتعلم من الحدائق الحقيقية.</p>
+</div>
+
+<div class="card">
+<h3>📅 قائمة تحقق شهرية</h3>
+<p>تنظيم أعمال الزراعة بشكل احترافي.</p>
+</div>
+
+<div class="card">
+<h3>🏡 البيوت البلاستيكية</h3>
+<p>تعلم أفضل طرق الزراعة الحديثة.</p>
+</div>
+
+<div class="card">
+<h3>🛠️ صيانة الحدائق</h3>
+<p>الحفاظ على النباتات بصحة جيدة.</p>
+</div>
+
+<div class="card">
+<h3>💼 وظائف التخصصات</h3>
+<p>فرص عمل في مجال البستنة.</p>
+</div>
+
+<div class="card">
+<h3>📓 دفتر النبات</h3>
+<p>تسجيل تقدمك في الزراعة.</p>
+</div>
+
+<div class="card">
+<h3>📸 مسابقات التصوير</h3>
+<p>شارك صور حديقتك.</p>
+</div>
+
+<div class="card">
+<h3>📊 استطلاعات موسمية</h3>
+<p>تحليل المواسم الزراعية.</p>
+</div>
+
+<div class="card">
+<h3>💬 استشارات</h3>
+<p>نصائح مباشرة عبر الإنترنت.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>© Gardens</footer>
+
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+    document.getElementById("topBtn").style.display =
+    window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+
+</body>
+</html>

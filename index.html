@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Gardens</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>🌿 Gardens</h1>
+<ul>
+<li><a href="index.html">الرئيسية</a></li>
+<li><a href="activities.html">الأنشطة</a></li>
+<li><a href="boxes.html">الصناديق</a></li>
+<li><a href="blog.html">المدونة</a></li>
+<li><a href="about.html">من نحن</a></li>
+<li><a href="contact.html">تواصل</a></li>
+<li><a href="gallery.html">المعرض</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h2>مرحبا بك في عالم البستنة</h2>
+<p>أفضل الأنشطة والصناديق لعشاق الزراعة</p>
+</section>
+
+<section>
+<h2>أهم الأنشطة</h2>
+<div class="cards">
+<div class="card">حدائق مفتوحة</div>
+<div class="card">نصائح البستنة</div>
+<div class="card">صيانة الحدائق</div>
+</div>
+</section>
+
+<footer>© 2026 Gardens</footer>
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+document.getElementById("topBtn").style.display =
+window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+</body>
+</html>

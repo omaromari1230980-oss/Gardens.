@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الأسئلة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>🌿 Gardens</h1>
+</nav>
+
+<section>
+<h2>الأسئلة الشائعة</h2>
+<div class="card">كيف أطلب صندوق؟</div>
+<div class="card">هل يوجد شحن؟</div>
+</section>
+
+<footer>© Gardens</footer>
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+document.getElementById("topBtn").style.display =
+window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الصناديق</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>🌿 Gardens</h1>
+<ul>
+<li><a href="index.html">الرئيسية</a></li>
+<li><a href="boxes.html">الصناديق</a></li>
+<li><a href="activities.html">الأنشطة</a></li>
+</ul>
+</nav>
+
+<section>
+<h2>الصناديق</h2>
+
+<div class="cards">
+
+<!-- Oddbox -->
+<div class="card">
+<h3>Oddbox</h3>
+<ul>
+<li>خضروات غير طبيعية مرفوضة من السوبرماركت</li>
+<li>مدونة</li>
+<li>شحن أسبوعي</li>
+<li>بذور الخضروات</li>
+</ul>
+</div>
+
+<!-- Flourish -->
+<div class="card">
+<h3>Flourish</h3>
+<ul>
+<li>أربعة صناديق في السنة</li>
+<li>بذور مع صواني</li>
+<li>علبة الري</li>
+<li>صابون طبيعي</li>
+</ul>
+</div>
+
+<!-- Cottage -->
+<div class="card">
+<h3>Cottage</h3>
+<ul>
+<li>صندوق شهري</li>
+<li>بذور الزهور البرية</li>
+<li>بطاقات معلومات</li>
+<li>علامات وخيوط</li>
+</ul>
+</div>
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+document.getElementById("topBtn").style.display =
+window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+<!-- Custom Boxes -->
+<div class="card">
+<h3>صناديق مخصصة</h3>
+<p>يمكن طلب صناديق مخصصة للاشتراكات أو الشركات عبر التواصل معنا.</p>
+</div>
+
+</div>
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script>
+window.onscroll = function() {
+document.getElementById("topBtn").style.display =
+window.scrollY > 300 ? "block" : "none";
+}
+
+function scrollToTop() {
+window.scrollTo({top: 0, behavior: "smooth"});
+}
+</script>
+</section>
+
+<footer>© Gardens</footer>
+
+</body>
+</html>
